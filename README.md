@@ -1,13 +1,9 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic Solidity contract. It comes with most of basic functionalities, that a token contract should have :
 
-Try running some of the following tasks:
+# mint - for minting new tokens and updating the total supply
+# burn  - for burning tokens as the name implies
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+
+
